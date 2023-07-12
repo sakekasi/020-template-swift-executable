@@ -1,0 +1,76 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug 003-template-swift",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/debug/003-template-swift",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Debug 003-template-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release 003-template-swift",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/release/003-template-swift",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Release 003-template-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug 020-template-swift",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/debug/020-template-swift",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Debug 020-template-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release 020-template-swift",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/release/020-template-swift",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Release 020-template-swift"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Debug 020-template-swift-executable",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/debug/020-template-swift-executable",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Debug 020-template-swift-executable"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": [
+        "swift"
+      ],
+      "name": "Release 020-template-swift-executable",
+      "program": "${workspaceFolder:020-template-swift-executable}/.build/release/020-template-swift-executable",
+      "args": [],
+      "cwd": "${workspaceFolder:020-template-swift-executable}",
+      "preLaunchTask": "swift: Build Release 020-template-swift-executable"
+    }
+  ]
+}
